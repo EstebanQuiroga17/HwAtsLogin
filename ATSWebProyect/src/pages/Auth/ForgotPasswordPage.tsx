@@ -4,7 +4,7 @@ import { AlertCircle, CheckCircle2 } from 'lucide-react';
 import axios from 'axios';
 import '../../styles/Auth.css';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://hwatslogin.onrender.com';
 
 function isValidEmail(email: string): boolean {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
